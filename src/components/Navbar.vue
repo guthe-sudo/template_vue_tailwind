@@ -7,7 +7,7 @@
         >
           <div>
             <a href="#" class="uppercase font-semibold text-white">
-              <!-- <img class="h-8" src="./images/logo1.png" /> -->
+              <img class="h-8" src="./images/logo1.png" />
             </a>
           </div>
           <div>
@@ -52,10 +52,10 @@
         >
           <div class="flex flex-col lg:flex-row">
             <div @click="isOpen = false">
-              <!-- <router-link link to="/"
+              <router-link link to="/"
                 class="block px-4 py-2 lg:py-5 text-warmGray-100 hover:text-cyan-800"
                 >Home</router-link
-              > -->
+              >
             </div>
             <div @click="show" @mouseover="show" @mouseleave="hide ">
               <a
@@ -73,7 +73,7 @@
                   <ul class="w-1/2">
                     <li class="mb-3">
                       <a href="#" class="flex group items-center">
-                        <!-- <img class="h-8 font" src="./images/kali.svg" /> -->
+                        <img class="h-8 font" src="./images/kali.svg" />
                         <span class="ml-2">
                           <span
                             class="block uppercase font-extrabold group-hover:text-cyan-800"
@@ -88,7 +88,7 @@
                     </li>
                     <li class="mb-3 items-center">
                       <a href="#" class="flex group items-center">
-                        <!-- <img class="h-7 ml-2" src="./images/v.svg" /> -->
+                        <img class="h-7 ml-2" src="./images/v.svg" />
                         <span class="ml-3">
                           <span
                             class="block uppercase font-bold group-hover:text-cyan-800"
@@ -105,7 +105,7 @@
                   <ul class="w-1/2">
                     <li class="mb-3">
                       <a href="#" class="flex group items-center">
-                        <!-- <img class="h-7 ml-2" src="./images/vuejs.svg" /> -->
+                        <img class="h-7 ml-2" src="./images/vuejs.svg" />
                         <span class="ml-2">
                           <span
                             class="block uppercase font-bold group-hover:text-cyan-800"
@@ -120,7 +120,7 @@
                     </li>
                     <li class="mb-3">
                       <a href="#" class="flex group items-center">
-                        <!-- <img class="h-7 ml-2" src="./images/linux.svg" /> -->
+                        <img class="h-7 ml-2" src="./images/linux.svg" />
                         <span class="ml-2">
                           <span
                             class="block uppercase font-bold group-hover:text-cyan-800"
@@ -151,7 +151,7 @@
                 <div class="flex px-10 py-3">
                   <ul class="w-1/2">
                     <li class="mb-3">
-                      <!-- <router-link link to="biodata" class="flex group items-center">
+                      <router-link link to="biodata" class="flex group items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           class="h-6 w-6"
@@ -176,7 +176,7 @@
                             >Biodata Penulis</span
                           >
                         </span>
-                      </router-link> -->
+                      </router-link>
                     </li>
                   </ul>
                   <ul class="w-1/2 px-5">
@@ -222,9 +222,9 @@
           </div>
 
           <div class="flex flex-col lg:flex-row">
-            <!-- <router-link link to="login" class="block group items-center px-4 py-2 lg:py-5 text-warmGray-100 hover:text-cyan-800">
+            <router-link link to="login" class="block group items-center px-4 py-2 lg:py-5 text-warmGray-100 hover:text-cyan-800">
               Login</router-link
-            > -->
+            >
           </div>
         </div>
       </div>
