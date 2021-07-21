@@ -73,7 +73,7 @@
                   <ul class="w-1/2">
                     <li class="mb-3">
                       <a href="#" class="flex group items-center">
-                        <img class="h-8 font" src="./images/kali.svg" />
+                        <!-- <img class="h-8 font" src="./images/kali.svg" /> -->
                         <span class="ml-2">
                           <span
                             class="block uppercase font-extrabold group-hover:text-cyan-800"
@@ -88,7 +88,7 @@
                     </li>
                     <li class="mb-3 items-center">
                       <a href="#" class="flex group items-center">
-                        <img class="h-7 ml-2" src="./images/v.svg" />
+                        <!-- <img class="h-7 ml-2" src="./images/v.svg" /> -->
                         <span class="ml-3">
                           <span
                             class="block uppercase font-bold group-hover:text-cyan-800"
@@ -105,7 +105,7 @@
                   <ul class="w-1/2">
                     <li class="mb-3">
                       <a href="#" class="flex group items-center">
-                        <img class="h-7 ml-2" src="./images/vuejs.svg" />
+                        <!-- <img class="h-7 ml-2" src="./images/vuejs.svg" /> -->
                         <span class="ml-2">
                           <span
                             class="block uppercase font-bold group-hover:text-cyan-800"
@@ -120,7 +120,7 @@
                     </li>
                     <li class="mb-3">
                       <a href="#" class="flex group items-center">
-                        <img class="h-7 ml-2" src="./images/linux.svg" />
+                        <!-- <img class="h-7 ml-2" src="./images/linux.svg" /> -->
                         <span class="ml-2">
                           <span
                             class="block uppercase font-bold group-hover:text-cyan-800"
