@@ -7,7 +7,7 @@
         >
           <div>
             <a href="#" class="uppercase font-semibold text-white">
-              <img class="h-8" src="./images/logo1.png" />
+              <!-- <img class="h-8" src="./images/logo1.png" /> -->
             </a>
           </div>
           <div>
