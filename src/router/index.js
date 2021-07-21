@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter,createWebHistory} from 'vue-router'
 import Navbar from '/src/components/Navbar.vue'
 import Home from '/src/components/pages/Home.vue'
 import Biodata from '/src/components/pages/Biodata.vue'
