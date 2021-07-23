@@ -1,9 +1,9 @@
 <template>
   <div class="w-full relative">
-    <div id="app" class="bg-gradient-to-br from-rose-700 via-warmGray-400 to-green-700">
+    <div id="app" class="bg-gradient-to-br from-warmGray-800 to-warmGray-600">
       <div class="flex flex-col lg:flex-row">
         <div
-          class="flex items-center justify-between px-4 py-3 lg:py-0 border-b border-warmGray-400 lg:border-b-0"
+          class="flex items-center justify-between px-4 py-3 lg:py-0 border-b border-warmGray-600 lg:border-b-0"
         >
           <div>
             <a href="#" class="uppercase font-semibold text-white">
@@ -48,28 +48,27 @@
         </div>
         <div
           :class="isOpen ? 'block' : 'hidden'"
-          class="lg:flex flex-col lg:flex-row justify-between w-full py-3 lg:py-0"
+          class="lg:flex flex-col lg:flex-row justify-between w-full lg:py-0 bg-warmGray-100 lg:bg-gradient-to-br from-warmGray-800 to-warmGray-600"
         >
-          <div class="flex flex-col lg:flex-row">
+          <div class="flex flex-col lg:flex-row divide-y divide-warmGray-600 px-5 ">
             <div @click="isOpen = false">
               <router-link link to="/"
-                class="block px-4 py-2 lg:py-5 text-warmGray-100 hover:text-cyan-800"
+                class="block px-4 py-2 lg:py-5 lg:text-warmGray-100 text-warmGray-900 hover:text-cyan-800"
                 >Home</router-link
               >
             </div>
             <div @click="show" @mouseover="show" @mouseleave="hide ">
               <a
                 href="#"
-                class="block px-4 py-2 lg:py-5 text-warmGray-100 hover:text-cyan-800"
+                class="block px-4 py-2 lg:py-5 lg:text-warmGray-100 text-warmGray-900 hover:text-cyan-800"
                 >Artikel</a
               >
               <div
               @click="isOpen = false"
                 v-show="isVisible"
-                class="lg:absolute normal-case font-semibold bg-gradient-to-br from-rose-400 via-warmGray-300 to-green-400 shadow-md rounded-lg overflow-hidden border w-full"
-                style="left: 0px"
+                class="w-full lg:absolute normal-case font-semibold"
               >
-                <div class="flex px-10 py-3">
+                <div class="flex lg:px-10 py-3">
                   <ul class="w-1/2">
                     <li class="mb-3">
                       <a href="#" class="flex group items-center">
@@ -140,17 +139,16 @@
             <div @click="isShow = true" @mouseover="tampil" @mouseleave="sembunyi">
               <a
                 href="#"
-                class="block px-4 py-2 lg:py-5 text-warmGray-100 hover:text-cyan-800"
+                class="block px-4 py-2 lg:py-5 lg:text-warmGray-100 text-warmGray-900 hover:text-cyan-800"
                 >About</a
               >
-              <div
+              <div @click="isOpen = false"
                 v-show="isShow"
-                class="lg:absolute normal-case font-semibold bg-gradient-to-br from-rose-400 via-warmGray-300 to-green-400 shadow-md rounded-lg overflow-hidden border w-full"
-                style="left: 0px"
+                class="lg:absolute normal-case font-semibold w-full"
               >
-                <div class="flex px-10 py-3">
+                <div class="flex lg:px-10 py-3">
                   <ul class="w-1/2">
-                    <li class="mb-3">
+                    <li>
                       <router-link link to="biodata" class="flex group items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -212,23 +210,27 @@
                 </div>
               </div>
             </div>
-            <div>
+            <div @click="isOpen = false">
               <a
-                href=""
-                class="block px-4 py-2 lg:py-5 text-warmGray-100 hover:text-cyan-800"
+                href="#"
+                class="block px-4 py-2 lg:py-5 lg:text-warmGray-100 text-warmGray-900 hover:text-cyan-800"
                 >Gallery</a
               >
             </div>
           </div>
 
-          <div class="flex flex-col lg:flex-row">
-            <router-link link to="login" class="block group items-center px-4 py-2 lg:py-5 text-warmGray-100 hover:text-cyan-800">
-              Login</router-link
-            >
-          </div>
         </div>
       </div>
     </div>
+    <div class="flex bg-gradient-to-br from-warmGray-600 to-warmGray-800 items-center lg:px-10">
+        <div class="w-full h-full text-center relative pl-5">
+          <p class="text-xs md:text-lg font-merienda text-warmGray-50 text-center">it's Enought...!!!</p>
+        <p class="w-full text-lg md:text-5xl font-extrabold font-body bg-gradient-to-tl from-warmGray-50 to-warmGray-50 inline text-transparent bg-clip-text items-center justify-between px-3">Apapun jadi mudah dengan 
+        <b class="lg:text-5xl font-extrabold font-test bg-rose-500 inline-block text-transparent bg-clip-text">LINUX
+        </b></p>
+        </div>
+        <img class="mix-blend-darken relative inset-0 max-h-48 max-w-screen-sm pr-5 object-cover outline-none" src="./images/teguh.jpg" alt=""/>
+      </div>
   </div>
 </template>
 

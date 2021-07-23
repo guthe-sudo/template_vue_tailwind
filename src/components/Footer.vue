@@ -6,9 +6,7 @@
       justify-between
       items-center
       bg-gradient-to-tl
-      from-green-700
-      via-warmGray-400
-      to-rose-700
+      from-warmGray-800 to-warmGray-500
     "
   >
     <img class="h-10" src="./images/logo1.png" />
