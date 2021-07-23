@@ -17,7 +17,7 @@
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                class="h-8 w-8"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -50,7 +50,7 @@
           :class="isOpen ? 'block' : 'hidden'"
           class="lg:flex flex-col lg:flex-row justify-between w-full lg:py-0 bg-warmGray-100 lg:bg-warmGray-800"
         >
-          <div class="flex flex-col lg:flex-row divide-y divide-warmGray-600 px-5 ">
+          <div class="flex flex-col lg:flex-row divide-y divide-warmGray-600 px-5 text-lg">
             <div @click="isOpen = false">
               <router-link link to="/"
                 class="block px-4 py-2 lg:py-5 lg:text-warmGray-100 text-warmGray-900 hover:text-cyan-800"
