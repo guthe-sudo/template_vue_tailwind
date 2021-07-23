@@ -225,8 +225,8 @@
     <div class="flex lg:px-10 items-center">
         <div class="w-full h-full text-center relative pl-5">
           <p class="text-xs md:text-lg font-merienda text-warmGray-50 text-center">it's Enought...!!!</p>
-        <p class="w-full text-lg md:text-5xl font-extrabold font-body bg-gradient-to-tl from-warmGray-50 to-warmGray-50 inline text-transparent bg-clip-text items-center justify-between px-3">Apapun jadi mudah dengan 
-        <b class="lg:text-5xl font-extrabold font-test bg-rose-500 inline-block text-transparent bg-clip-text">LINUX
+        <p class="w-full text-lg md:text-5xl font-extrabold font-lato bg-gradient-to-tl from-warmGray-50 to-warmGray-50 inline text-transparent bg-clip-text items-center justify-between px-3">Apapun jadi mudah dengan 
+        <b class="lg:text-5xl font-extrabold font-merienda bg-rose-500 inline-block text-transparent bg-clip-text">LINUX
         </b></p>
         </div>
         <img class="mix-blend-darken relative inset-0 max-h-48 max-w-screen-sm pr-5 lg:pr-10 object-cover outline-none" src="./images/teguh.jpg" alt=""/>

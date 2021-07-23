@@ -18,7 +18,8 @@ module.exports = {
     fontFamily: {
       body: ['Satisfy'],
       test: ['Lobster'],
-      merienda: ['Merienda']
+      merienda: ['Merienda'],
+      lato: ['Lato'],
     },
     textShadow: {
       'default': '0 2px 0 #000',

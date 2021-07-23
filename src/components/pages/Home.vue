@@ -1,7 +1,7 @@
 <template>
     <div class="container flex flex-col lg:flex-row">
       <div class="w-full lg:w-13/4 p-5 text-center">
-        <p class="text-sm font-merienda">it's Enought...!!!</p>
+        <p class="text-sm font-lato">it's Enought...!!!</p>
         <p class="w-full text-xl lg:text-6xl font-extrabold font-body bg-gradient-to-tl from-warmGray-900 via-warmGray-600 to-warmGray-900 inline text-transparent bg-clip-text justify-between">Apapun jadi mudah dengan 
         <b class="lg:text-6xl font-extrabold font-test bg-rose-500 inline-block text-transparent bg-clip-text">LINUX
         </b></p>
