@@ -1,13 +1,13 @@
 <template>
   <div class="w-full relative bg-gradient-to-br from-warmGray-900 to-warmGray-700 lg:bg-warmGray-800 lg:bg-blend-hue">
     <div id="app">
-      <div class="flex flex-col lg:flex-row  lg:bg-warmGray-800">
+      <div class="flex flex-col lg:flex-row lg:bg-warmGray-800">
         <div
           class="flex items-center justify-between px-4 py-3 lg:py-0 border-b border-warmGray-700 lg:border-b-0"
         >
           <div>
             <a href="#" class="uppercase font-semibold text-white">
-              <img class="h-8" src="./images/logo1.png" />
+              <img class="h-8" src="./images/white.png" />
             </a>
           </div>
           <div>
