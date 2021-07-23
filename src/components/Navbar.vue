@@ -5,7 +5,7 @@
         <div
           class="flex items-center justify-between px-4 py-3 lg:py-0 border-b border-warmGray-700 lg:border-b-0"
         >
-          <div>
+          <div class="lg:static">
             <a href="#" class="uppercase font-semibold text-white">
               <img class="h-8" src="./images/white.png" />
             </a>
@@ -57,7 +57,7 @@
                 >Home</router-link
               >
             </div>
-            <div @click="show" @mouseover="show" @mouseleave="hide ">
+            <div class="lg:block" @click="show" @mouseover="show" @mouseleave="hide ">
               <a
                 href="#"
                 class="block px-4 py-2 lg:py-5 lg:text-warmGray-100 text-warmGray-900 hover:text-cyan-800"
@@ -66,10 +66,10 @@
               <div
               @click="isOpen = false"
                 v-show="isVisible"
-                class="w-full lg:absolute normal-case font-semibold"
+                class="w-full lg:text-cyan-50 normal-case font-semibold"
               >
                 <div class="flex lg:px-10 py-3">
-                  <ul class="w-1/2">
+                  <ul class="w-1/2 lg:px-5">
                     <li class="mb-3">
                       <a href="#" class="flex group items-center">
                         <img class="h-8 font" src="./images/kali.svg" />
@@ -136,7 +136,7 @@
                 </div>
               </div>
             </div>
-            <div @click="isShow = true" @mouseover="tampil" @mouseleave="sembunyi">
+            <div class="lg:block" @click="isShow = true" @mouseover="tampil" @mouseleave="sembunyi">
               <a
                 href="#"
                 class="block px-4 py-2 lg:py-5 lg:text-warmGray-100 text-warmGray-900 hover:text-cyan-800"
@@ -144,10 +144,10 @@
               >
               <div @click="isOpen = false"
                 v-show="isShow"
-                class="lg:absolute normal-case font-semibold w-full"
+                class="w-full lg:text-cyan-50 normal-case font-semibold"
               >
                 <div class="flex lg:px-10 py-3">
-                  <ul class="w-1/2">
+                  <ul class="w-full lg:px-5">
                     <li>
                       <router-link link to="biodata" class="flex group items-center">
                         <svg
@@ -171,14 +171,14 @@
                           >
                           <span
                             class="block text-sm font-extralight group-hover:text-cyan-800"
-                            >Biodata Penulis</span
+                            >Biodata</span
                           >
                         </span>
                       </router-link>
                     </li>
                   </ul>
-                  <ul class="w-1/2 px-5">
-                    <li class="mb-3">
+                  <ul class="w-full">
+                    <li>
                       <a href="#" class="flex group items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -222,7 +222,7 @@
         </div>
       </div>
     </div>
-    <div class="flex lg:px-10 items-center">
+    <div class="flex lg:px-10 items-center lg:flex">
         <div class="w-full h-full text-center relative pl-5">
           <p class="text-xs md:text-lg font-merienda text-warmGray-50 text-center">it's Enought...!!!</p>
         <p class="w-full text-lg md:text-5xl font-extrabold font-lato bg-gradient-to-tl from-warmGray-50 to-warmGray-50 inline text-transparent bg-clip-text items-center justify-between px-3">Apapun jadi mudah dengan 
