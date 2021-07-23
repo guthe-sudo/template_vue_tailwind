@@ -1,9 +1,9 @@
 <template>
-  <div class="w-full relative">
-    <div id="app" class="bg-gradient-to-br from-warmGray-800 to-warmGray-600">
-      <div class="flex flex-col lg:flex-row">
+  <div class="w-full relative bg-gradient-to-br from-warmGray-900 to-warmGray-700 lg:bg-warmGray-800 lg:bg-blend-hue">
+    <div id="app">
+      <div class="flex flex-col lg:flex-row  lg:bg-warmGray-800">
         <div
-          class="flex items-center justify-between px-4 py-3 lg:py-0 border-b border-warmGray-600 lg:border-b-0"
+          class="flex items-center justify-between px-4 py-3 lg:py-0 border-b border-warmGray-700 lg:border-b-0"
         >
           <div>
             <a href="#" class="uppercase font-semibold text-white">
@@ -48,7 +48,7 @@
         </div>
         <div
           :class="isOpen ? 'block' : 'hidden'"
-          class="lg:flex flex-col lg:flex-row justify-between w-full lg:py-0 bg-warmGray-100 lg:bg-gradient-to-br from-warmGray-800 to-warmGray-600"
+          class="lg:flex flex-col lg:flex-row justify-between w-full lg:py-0 bg-warmGray-100 lg:bg-warmGray-800"
         >
           <div class="flex flex-col lg:flex-row divide-y divide-warmGray-600 px-5 ">
             <div @click="isOpen = false">
@@ -222,14 +222,14 @@
         </div>
       </div>
     </div>
-    <div class="flex bg-gradient-to-br from-warmGray-600 to-warmGray-800 items-center lg:px-10">
+    <div class="flex lg:px-10 items-center">
         <div class="w-full h-full text-center relative pl-5">
           <p class="text-xs md:text-lg font-merienda text-warmGray-50 text-center">it's Enought...!!!</p>
         <p class="w-full text-lg md:text-5xl font-extrabold font-body bg-gradient-to-tl from-warmGray-50 to-warmGray-50 inline text-transparent bg-clip-text items-center justify-between px-3">Apapun jadi mudah dengan 
         <b class="lg:text-5xl font-extrabold font-test bg-rose-500 inline-block text-transparent bg-clip-text">LINUX
         </b></p>
         </div>
-        <img class="mix-blend-darken relative inset-0 max-h-48 max-w-screen-sm pr-5 object-cover outline-none" src="./images/teguh.jpg" alt=""/>
+        <img class="mix-blend-darken relative inset-0 max-h-48 max-w-screen-sm pr-5 lg:pr-10 object-cover outline-none" src="./images/teguh.jpg" alt=""/>
       </div>
   </div>
 </template>
