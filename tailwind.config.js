@@ -36,7 +36,7 @@ module.exports = {
     },
   },
   variants: {
-    // textColor: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus'],
+    textColor: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus'],
     extend: {},
   },
   plugins: [
