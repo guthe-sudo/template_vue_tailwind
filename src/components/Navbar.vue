@@ -108,8 +108,7 @@
               >
             </div>
             <div @click="show" @mouseover="down" @mouseleave="up">
-              <a
-                href="#"
+              <span
                 class="
                   flex flex-row
                   px-4
@@ -136,7 +135,7 @@
                     d="M19 9l-7 7-7-7"
                   />
                 </svg>
-              </a>
+              </span>
               <div
                 @click="isOpen = false"
                 v-show="isVisible"
@@ -263,8 +262,7 @@
               @mouseover="down2"
               @mouseleave="up2"
             >
-              <a
-                href="#"
+              <span
                 class="
                   flex flex-row
                   px-4
@@ -290,7 +288,7 @@
                     d="M19 9l-7 7-7-7"
                   />
                 </svg>
-              </a>
+              </span>
               <div
                 @click="isOpen = false"
                 v-show="isShow"
