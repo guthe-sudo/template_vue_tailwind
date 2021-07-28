@@ -149,7 +149,7 @@
                   px-5
                 "
               >
-                <div class="flex lg:px-10 py-3 lg:w-full lg:flex lg:flex-row">
+                <div class="flex lg:px-10 py-3 lg:w-full lg:flex-row lg:hidden">
                   <ul class="w-1/2 lg:px-5">
                     <li class="mb-3">
                       <a href="#" class="flex group items-center">
@@ -296,7 +296,7 @@
                 v-show="isShow"
                 class="w-full lg:text-cyan-50 normal-case font-semibold px-5"
               >
-                <div class="flex lg:px-10 py-3">
+                <div class="flex lg:px-10 py-3 lg:hidden">
                   <ul class="w-full lg:px-5">
                     <li>
                       <router-link
