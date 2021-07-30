@@ -409,8 +409,8 @@
             "
             @click="isOpen = false"
           >
-            <a
-              href="#"
+            <router-link
+              to="/login"
               class="
                 block
                 justify-end
@@ -420,7 +420,7 @@
                 text-warmGray-900
                 hover:text-cyan-800
               "
-              >Login</a
+              >Login</router-link
             >
           </div>
         </div>
@@ -429,7 +429,6 @@
     <div
       @click="isOpen = false"
       v-show="dropdown"
-      :class="dropdown ? 'block' : 'hidden'"
       class="w-full lg:flex lg:text-cyan-50 normal-case font-semibold px-5"
     >
       <div class="flex lg:px-10 py-3 lg:w-full lg:flex lg:flex-row">
@@ -527,7 +526,6 @@
     <div
       @click="isOpen = false"
       v-show="dropdown2"
-      :class="dropdown2 ? 'block' : 'hidden'"
       class="w-full lg:text-cyan-50 normal-case font-semibold px-5"
     >
       <div class="flex lg:px-10 py-3">
