@@ -290,7 +290,7 @@
                 </svg>
               </span>
               <div
-                @click="isOpen = false"
+                @click="isOpen = false, tampil = false"
                 v-show="isShow"
                 class="w-full lg:text-cyan-50 normal-case font-semibold px-5"
               >
