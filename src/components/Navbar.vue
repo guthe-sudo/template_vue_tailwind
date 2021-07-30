@@ -148,7 +148,7 @@
                   px-5
                 "
               >
-                <div class="flex lg:px-10 py-3 lg:w-full lg:flex-row lg:hidden">
+                <div class="flex lg:px-10 py-3 lg:w-full lg:flex-row">
                   <ul class="w-1/2 lg:px-5">
                     <li class="mb-3">
                       <a href="#" class="flex group items-center">
@@ -426,7 +426,7 @@
         </div>
       </div>
     </div>
-    <div
+    <!-- <div
       @click="isOpen = false"
       v-show="dropdown"
       class="w-full lg:flex lg:text-cyan-50 normal-case font-semibold px-5"
@@ -600,7 +600,7 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> -->
     <div class="flex lg:px-10 items-center">
       <div class="w-full h-full text-center relative pl-5">
         <p
