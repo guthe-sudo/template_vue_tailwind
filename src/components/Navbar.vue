@@ -524,7 +524,7 @@
       </div>
     </div>
     <div
-      @click="isOpen = false"
+      @click="isOpen = false,  dropdown2 = false"
       v-show="dropdown2"
       class="w-full lg:text-cyan-50 normal-case font-semibold px-5"
     >

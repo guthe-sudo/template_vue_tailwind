@@ -1,5 +1,5 @@
 <template>
-      <div class="w-full h-96 items-center py-10 bg-warmGray-100">
+      <div class="w-full leading-relaxed items-center py-10 bg-warmGray-100">
             <h1 class="text-center font-lato font-extrabold text-2xl">Selamat Datang</h1>
             <div class="p-5 m-5 border rounded-lg bg-warmGray-50">
                   <form action="">

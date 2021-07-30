@@ -1,6 +1,6 @@
 <template>
-      <div class="leading-relaxed items-center justify-center bg-warmGray-100">
-            <div class="w-full p-5">
+      <div class="items-center justify-center bg-warmGray-100">
+            <div class="w-full p-5 leading-relaxed">
                   <div class="bg-warmGray-50 shadow rounded-lg">
                         <div class="flex flex-row px-8 p-3 text-2xl text-warmGray-900 items-center justify-between">
                               <div class="flex">
