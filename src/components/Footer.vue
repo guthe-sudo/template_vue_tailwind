@@ -1,7 +1,6 @@
 <template>
   <div
     class="
-      static
       flex flex-col
       p-3
       justify-between
