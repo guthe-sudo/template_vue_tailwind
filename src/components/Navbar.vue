@@ -257,7 +257,6 @@
               </div>
             </div>
             <div
-              class="lg:block"
               @click="tampil"
               @mouseover="down2"
               @mouseleave="up2"
@@ -290,11 +289,11 @@
                 </svg>
               </span>
               <div
-                @click="isOpen = false, tampil = false"
+                @click="isOpen = false"
                 v-show="isShow"
                 class="w-full lg:text-cyan-50 normal-case font-semibold px-5"
               >
-                <div class="flex lg:px-10 py-3 lg:hidden">
+                <div class="flex lg:px-10 py-3">
                   <ul class="w-full lg:px-5">
                     <li>
                       <router-link

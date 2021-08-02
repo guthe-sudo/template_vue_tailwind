@@ -1,36 +1,35 @@
 import { createRouter,createWebHistory} from 'vue-router'
-import Navbar from '/src/components/Navbar.vue'
-import Home from '/src/components/pages/Home.vue'
-import Biodata from '/src/components/pages/Biodata.vue'
-import Login from '/src/components/pages/Login.vue'
-//import Create from '/src/components/pages/articles/Create.vue'
-import Index from '/src/components/pages/articles/Index.vue'
 
 const routes = [
       {
             path: '/',
-            name: 'Home',
-            component: Home
+            name: 'articles.home',
+            component: () => import("/src/components/pages/Home.vue")
       },
       {
             path: '/',
-            name: 'Navbar',
-            component: Navbar
+            name: 'navbar',
+            component: () => import("/src/components/Navbar.vue")
       },
       {
             path: '/biodata',
-            name: 'Biodata',
-            component: Biodata
+            name: 'pages.biodata',
+            component: () => import("/src/components/pages/Biodata.vue")
       },
       {
             path: '/login',
-            name: 'Login',
-            component: Login
+            name: 'pages.login',
+            component: () => import("/src/components/pages/Login.vue")
       },
       {
             path: '/articles/index',
-            name: 'Index',
-            component: Index
+            name: 'articles.index',
+            component: () => import("/src/components/pages/articles/Index.vue")
+      },
+      {
+            path: '/articles/create_article',
+            name: 'articles.create',
+            component: () => import("/src/components/pages/articles/Create.vue")
       }
 ]
 const router = createRouter ({
