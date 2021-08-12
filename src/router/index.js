@@ -12,25 +12,21 @@ const routes = [
             component: () => import("/src/components/Navbar.vue")
       },
       {
-            path: '/biodata',
-            name: 'pages.biodata',
-            component: () => import("/src/components/pages/Biodata.vue")
+            path: '/article',
+            name: 'pages.article',
+            component: () => import("/src/components/pages/Article.vue")
+      },
+      {
+            path: '/contact',
+            name: 'pages.contact',
+            component: () => import("/src/components/pages/Contact.vue")
       },
       {
             path: '/login',
             name: 'pages.login',
             component: () => import("/src/components/pages/Login.vue")
       },
-      {
-            path: '/articles/index',
-            name: 'articles.index',
-            component: () => import("/src/components/pages/articles/Index.vue")
-      },
-      {
-            path: '/articles/create_article',
-            name: 'articles.create',
-            component: () => import("/src/components/pages/articles/Create.vue")
-      }
+     
 ]
 const router = createRouter ({
       history: createWebHistory(),
